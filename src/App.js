@@ -1,15 +1,12 @@
-import ReactModal from "react-modal";
 import "./App.css";
-import Colegios from "./components/Colegios";
+import Colegios from "./components/pages/Colegios";
 
 
 
 function App() {
-  return (
-    <div className="App">
-      <Colegios />
-    </div>
-  );
+  return(
+    <Colegios></Colegios>
+  )
 }
 
 export default App;
